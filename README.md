@@ -1,9 +1,11 @@
 # Redmi 5Plus Liunx(PostmarketOS) Installation Tutorial
 
 ### Setup 1 unlock bootloader
- >  Reference: [https://www.miui.com/unlock/index.html](https://www.miui.com/unlock/index.html)
- >  Notice1: `miflush_unlock` requires a windows os
- >  Notice2: If the unlock tool does not recognize the phone, you need to install the driver manually in the device manager, select the path miflush_unlock/driver.
+>  Reference: [https://www.miui.com/unlock/index.html](https://www.miui.com/unlock/index.html)
+>
+> Notice1: `miflush_unlock` requires a windows os
+> 
+>  Notice2: If the unlock tool does not recognize the phone, you need to install the driver manually in the device manager, select the path miflush_unlock/driver.
 
 1. Download Xiaomi Official Unlock Tool (`miflush_unlock`): [https://www.miui.com/unlock/download.html](https://www.miui.com/unlock/download.html)
 2. Run miflush_unlock.exe, login to Xiaomi account
@@ -15,6 +17,7 @@
 ### Setup 2 Download android sdk
 
 > [https://developer.android.google.cn/tools/releases/platforms?hl=en](https://developer.android.google.cn/tools/releases/platforms?hl=en)
+> 
 > macos can be installed using homebrew, `brew install android-platform-tools`
 
 1. Download android platform-tools
